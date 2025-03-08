@@ -152,4 +152,4 @@ The Aetheria Salon website is designed to provide a visually appealing and user-
 4.  Push to the branch.
 5.  Submit a pull request.
 
-#Thank You!
+## Thank You!
