@@ -21,7 +21,7 @@ This repository contains the source code for the Aetheria Salon website, built w
 - [Scroll-Based Header](#scroll-based-header)
 - [Footer](#footer)
 - [Contributing](#contributing)
-- #(Thnak You!)
+- [Thank You!](#Thank You!)
 
 ## Project Overview
 
