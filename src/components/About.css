@@ -1,0 +1,100 @@
+/* src/components/About.css */
+
+.about-container {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about-container h1 {
+  color: #ffd700;
+  margin-bottom: 30px;
+}
+
+.about-container p {
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.team-section {
+  margin-top: 40px;
+}
+
+.team-section h2 {
+  color: #ffd700;
+  margin-bottom: 30px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.team-member {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.team-member h3 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.member-details {
+  background-color: #222;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.member-details p {
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Active member styles */
+.team-member.active {
+    background-color: #282828;
+    transition: .3s;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.footer {
+  height: 10px;
+  background-color: #000;
+  padding: 1px;
+  text-align: center;
+  color: #ccc;
+}

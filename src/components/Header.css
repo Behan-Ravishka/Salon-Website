@@ -1,0 +1,128 @@
+/* src/components/Header.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.233);
+  color: #ffffff;
+  padding: 20px 0 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 85%;
+  z-index: 100;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 25px;
+  margin-left: 90px;
+  margin-top: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar.hidden {
+  transform: translateY(-100%);
+}
+
+.navlogo .logo {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.nav-items {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.nav-item {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #ffd700;
+  transition: .3s;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  align-items: center; /* Center hamburger bars vertically */
+  justify-content: center; /* Center hamburger bars horizontally */
+  opacity: 0.3; /* Reduced opacity */
+  transition: opacity 0.3s ease, border-radius 0.3s ease; /* Added transition for border-radius */
+}
+
+.hamburger.active {
+  opacity: 1; /* Full opacity when active */
+  border-radius: 10px; /* Increased border radius when active */
+  background-color: rgba(255, 255, 255, 0.1); /* Added a slight background for visibility */
+  padding: 10px; /* added padding to give space to the hamburger menu*/
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navlogo .logo {
+    height: 50px;
+    margin: 5px;
+  }
+
+  .navbar {
+    width: 60%;
+    padding: 10px;
+  }
+
+  .nav-items {
+    display: none !important;
+  }
+
+  .hamburger {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin : 0 20px 0 0;
+  }
+
+  .nav-items.active {
+    display: flex !important;
+    flex-direction: column;
+    position: fixed; /* Use fixed positioning */
+    top: 60px;
+    left: 0; /* Align to left edge */
+    right: 0; /* Align to right edge */
+    margin: 15px auto; /* Center horizontally */
+    width: 80%; /* Adjust width as needed */
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-6px, -6px);
+  }
+}
