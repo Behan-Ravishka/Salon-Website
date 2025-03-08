@@ -1,4 +1,4 @@
-````markdown
+
 # Aetheria Salon - React Website
 
 This repository contains the source code for the Aetheria Salon website, built with React. It features a modern and interactive design with smooth transitions, responsive layouts, and various user-friendly components.
@@ -54,7 +54,7 @@ The Aetheria Salon website is designed to provide a visually appealing and user-
 
    ```bash
    git clone [repository-url]
-````
+
 
 2.  Navigate to the project directory:
 
@@ -152,11 +152,4 @@ The Aetheria Salon website is designed to provide a visually appealing and user-
 4.  Push to the branch.
 5.  Submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](https://www.google.com/url?sa=E&source=gmail&q=LICENSE).
-
-```
-```
-# Salon-Website
-Basic FrontEnd Design for Salon
+#Thank You!
