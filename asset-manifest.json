@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Salon-Website/static/css/main.2b416aaa.css",
+    "main.js": "/Salon-Website/static/js/main.e1e9b0bb.js",
+    "static/js/453.6cb4667c.chunk.js": "/Salon-Website/static/js/453.6cb4667c.chunk.js",
+    "static/media/instagramIcon.gif": "/Salon-Website/static/media/instagramIcon.41cbcde8f25ceb664374.gif",
+    "static/media/gallery1.jpeg": "/Salon-Website/static/media/gallery1.8ffee39366b06105dfa8.jpeg",
+    "static/media/linkedinIcon.gif": "/Salon-Website/static/media/linkedinIcon.37e856ae8596cf4b5ec5.gif",
+    "static/media/facebookIcon.gif": "/Salon-Website/static/media/facebookIcon.c8ee812044bcabac4af3.gif",
+    "static/media/hero-bg.jpg": "/Salon-Website/static/media/hero-bg.17244eb40fe829e70668.jpg",
+    "static/media/team1.jpeg": "/Salon-Website/static/media/team1.1a3b53eccb2d0be02d9c.jpeg",
+    "static/media/twitterIcon.gif": "/Salon-Website/static/media/twitterIcon.d88b46df634200c1399d.gif",
+    "static/media/team2.jpeg": "/Salon-Website/static/media/team2.16130412d00d8e2ace24.jpeg",
+    "static/media/gallery2.jpeg": "/Salon-Website/static/media/gallery2.0df9d8c1d16a916fa7ce.jpeg",
+    "index.html": "/Salon-Website/index.html",
+    "main.2b416aaa.css.map": "/Salon-Website/static/css/main.2b416aaa.css.map",
+    "main.e1e9b0bb.js.map": "/Salon-Website/static/js/main.e1e9b0bb.js.map",
+    "453.6cb4667c.chunk.js.map": "/Salon-Website/static/js/453.6cb4667c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b416aaa.css",
+    "static/js/main.e1e9b0bb.js"
+  ]
+}
