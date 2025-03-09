@@ -2,6 +2,10 @@
 
 import React, { useState } from 'react';
 import './Contact.css';
+import facebookIcon from './images/facebookIcon.gif';
+import twitterIcon from './images/twitterIcon.gif';
+import instagramIcon from './images/instagramIcon.gif';
+import linkedinIcon from './images/linkedinIcon.gif';
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -69,16 +73,16 @@ function Contact() {
 
       <div className="social-icons">
         <a href="YOUR_FACEBOOK_URL" target="_blank" rel="noopener noreferrer">
-          <img src="/images/facebook-icon.gif" alt="Facebook" className="social-icon" />
+          <img src={facebookIcon} alt="Facebook" className="social-icon" />
         </a>
         <a href="YOUR_TWITTER_URL" target="_blank" rel="noopener noreferrer">
-          <img src="/images/twitter-icon.gif" alt="Twitter" className="social-icon" />
+          <img src={twitterIcon} alt="Twitter" className="social-icon" />
         </a>
         <a href="YOUR_INSTAGRAM_URL" target="_blank" rel="noopener noreferrer">
-          <img src="/images/instagram-icon.gif" alt="Instagram" className="social-icon" />
+          <img src={instagramIcon} alt="Instagram" className="social-icon" />
         </a>
         <a href="YOUR_LINKEDIN_URL" target="_blank" rel="noopener noreferrer">
-          <img src="/images/linkedin-icon.gif" alt="LinkedIn" className="social-icon" />
+          <img src={linkedinIcon}alt="LinkedIn" className="social-icon" />
         </a>
       </div>
     </div>

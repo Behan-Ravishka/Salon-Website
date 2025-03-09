@@ -2,6 +2,8 @@
 
 import React, { useState } from 'react';
 import './About.css';
+import team1 from './images/team1.jpeg';
+import team2 from './images/team2.jpeg';
 
 function About() {
   const [activeMember, setActiveMember] = useState(null);
@@ -26,7 +28,7 @@ function About() {
             className={`team-member ${activeMember === 1 ? 'active' : ''}`}
             onClick={() => handleMemberClick(1)}
           >
-            <img src="images/team1.jpeg" alt="Team Member 1" />
+            <img src={team1} alt="Team Member 1" />
             <h3>Stylist 1</h3>
             <p>Expert Hair Stylist</p>
             {activeMember === 1 && (
@@ -40,7 +42,7 @@ function About() {
             className={`team-member ${activeMember === 2 ? 'active' : ''}`}
             onClick={() => handleMemberClick(2)}
           >
-            <img src="images/team2.jpeg" alt="Team Member 2" />
+            <img src={team2} alt="Team Member 2" />
             <h3>Therapist 1</h3>
             <p>Skin Care Specialist</p>
             {activeMember === 2 && (
