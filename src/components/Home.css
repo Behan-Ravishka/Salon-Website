@@ -1,0 +1,235 @@
+/* src/components/Home.css */
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+}
+
+.hero {
+  background-image: url('images/hero-bg.jpg'); /* Replace with your hero image */
+  background-size: cover;
+  border-radius: 10px;
+  background-position: center;
+  height: 550px;
+  width: 97%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+  margin-left: 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  color: #ffd700;
+  background-color: rgb(2, 2, 2, 0.3);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.hero-button {
+  background-color: #ffd700;
+  padding: 10px;
+  border-radius: 5px;
+  color: #000;
+  text-decoration: none;
+}
+
+.hero-button:hover {
+  background-color: #000;
+  color: #ffd700;
+  transition: .3s;
+}
+
+.featured-services {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.featured-services h2 {
+  color: #ffd700;
+  margin-bottom: 30px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.service-item {
+  background-color: #1a1a1a;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.service-item i {
+  font-size: 2.5rem;
+  color: #ffd700;
+  margin-bottom: 20px;
+}
+
+.service-item h3 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.service-item p {
+  color: #ccc;
+}
+
+.testimonial-section {
+  background-color: #111;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.testimonial-section h2 {
+  color: #ffd700;
+  margin-bottom: 30px;
+}
+
+.testimonial {
+  background-color: #222;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+testimonial p {
+  color: #ccc;
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero {
+    height: 540px; /* Adjusted hero height */
+    margin-top: 70px; /* Adjusted top margin for better spacing */
+    margin-left: 6px;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem; /* Adjusted hero heading font size */
+    padding: 8px; /* Adjusted padding */
+  }
+
+  .hero-button {
+    padding: 8px 15px; /* Adjusted button padding */
+    font-size: 0.9rem; /* Adjusted button font size */
+  }
+
+  .featured-services {
+    padding: 40px 15px; /* Adjusted padding */
+  }
+
+  .featured-services h2 {
+    font-size: 1.8rem; /* Adjusted heading font size */
+    margin-bottom: 25px; /* Adjusted margin */
+  }
+
+  .service-item {
+    padding: 25px; /* Adjusted service item padding */
+  }
+
+  .service-item i {
+    font-size: 2rem; /* Adjusted icon size */
+    margin-bottom: 15px; /* Adjusted margin */
+  }
+
+  .service-item h3 {
+    font-size: 1.1rem; /* Adjusted heading font size */
+  }
+
+  .service-item p {
+    font-size: 0.9rem; /* Adjusted paragraph font size */
+  }
+
+  .testimonial-section {
+    padding: 40px 15px; /* Adjusted padding */
+  }
+
+  .testimonial-section h2 {
+    font-size: 1.8rem; /* Adjusted heading font size */
+    margin-bottom: 25px; /* Adjusted margin */
+  }
+
+  .testimonial {
+    padding: 25px; /* Adjusted testimonial padding */
+  }
+
+  testimonial p {
+    font-size: 0.9rem; /* Adjusted paragraph font size */
+  }
+}
+
+.about-us,
+.our-team,
+.gallery-preview,
+.booking-cta {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about-us h2,
+.our-team h2,
+.gallery-preview h2,
+.booking-cta h2 {
+  color: #ffd700;
+  margin-bottom: 30px;
+}
+
+.learn-more-button,
+.view-gallery-button,
+.book-now-button {
+  background-color: #ffd700;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #000;
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.learn-more-button:hover,
+.view-gallery-button:hover,
+.book-now-button:hover {
+  background-color: #000;
+  color: #ffd700;
+  transition: 0.3s;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.team-member {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.team-photo {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.gallery-image {
+  width: 100%;
+  border-radius: 8px;
+}
