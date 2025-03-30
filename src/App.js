@@ -12,14 +12,14 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Salon-Website"> {/* Replace Salon-Website with your repo name */}
       <div className="App">
         <Header />
         <main>
           <Routes>
-            <Route path="/Home" element={<Home />} />
-            <Route path="/Services" element={<Services />} />
-            <Route path="/Gallery" element={<Gallery />} />
+            <Route path="/" element={<Home />} /> {/* Changed from /Home to / */}
+            <Route path="/services" element={<Services />} /> {/* Changed to lowercase */}
+            <Route path="/gallery" element={<Gallery />} /> {/* Changed to lowercase */}
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
