@@ -17,9 +17,9 @@ function App() {
         <Header />
         <main>
           <Routes>
-            <Route path="/home" element={<Home />} /> {/* Changed from /Home to / */}
-            <Route path="/services" element={<Services />} /> {/* Changed to lowercase */}
-            <Route path="/gallery" element={<Gallery />} /> {/* Changed to lowercase */}
+            <Route path="/" element={<Home />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/gallery" element={<Gallery />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

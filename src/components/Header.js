@@ -44,7 +44,7 @@ function Header() {
         <img src={logo} alt="Aetheria Logo" className="logo" />
       </div>
       <nav className={`nav-items ${isMenuOpen ? 'active' : ''}`}>
-        <Link to="/Home" className="nav-item">Home</Link>
+        <Link to="/" className="nav-item">Home</Link>
         <Link to="/services" className="nav-item">Services</Link>
         <Link to="/gallery" className="nav-item">Gallery</Link>
         <Link to="/about" className="nav-item">About</Link>
