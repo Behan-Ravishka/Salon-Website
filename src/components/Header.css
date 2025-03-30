@@ -82,7 +82,7 @@
   .navbar {
     width: 60%;
     padding: 10px;
-    margin-left: 65px;
+    align-content: center;
   }
 
   .nav-items {
